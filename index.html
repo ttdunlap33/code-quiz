@@ -9,31 +9,34 @@
 </head>
 <body>
   <div id="main">
-    <h1>Coding Quiz</h1>
-    <h2>Click the button to start</h2>
+    <h1 style = "font-size: 65px;">Coding Quiz</h1>
+    
   </div>
   <div id="articles">
     <article>
       <div id = "startScreen" >
-      <h3 class="artTitle">POPULATE QUIZ QUESTIONS HERE</h3>
-      <button onclick="startQuiz()">
-        push the button
+      <h3 class="artTitle">You have 5 questions, 100 seconds on the clock, and a 10 second penalty for each wrong answer. </h3>
+      <button class = "button" onclick="startQuiz()">
+        GO!
       </button></div>
       <div id = "questions">
         <h3 id = "question">
     
         </h3>
-        <button id = "a" onclick = "nextQuestion(this.id)"></button>
-        <button id = "b" onclick = "nextQuestion(this.id)"></button>
-        <button id = "c" onclick = "nextQuestion(this.id)"></button>
-        <button id = "d" onclick = "nextQuestion(this.id)"></button>
+        <button class = "button"  id = "a" onclick = "nextQuestion(this.id)"></button>
+        <button class = "button"  id = "b" onclick = "nextQuestion(this.id)"></button>
+        <button class = "button"  id = "c" onclick = "nextQuestion(this.id)"></button>
+        <button class = "button"  id = "d" onclick = "nextQuestion(this.id)"></button>
       </div>
       <div id= "submit" >
         <h3 id = "score"> 
         </h3>
         <input type="text" id="initial">
-        <button onclick = "submitScore()">
+        <button class = "button" onclick = "submitScore()">
           submit score
+        </button>
+        <button class = "button" onclick = "startOver()">
+          start over
         </button>
       </div>
       <div id = "highScore" align = "center"></div>

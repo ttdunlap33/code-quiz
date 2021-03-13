@@ -1,5 +1,5 @@
 var correct = 0
-var timerCount = 5
+var timerCount = 100
 var timerElement = document.querySelector("#timer")
 var isWin=false
 var articlesDiv = document.getElementById("articles");
@@ -10,7 +10,7 @@ var submitDiv = document.querySelector("#submit")
 submitDiv.style.display = 'none'
 // Change style by accessing style object's properties
 articlesDiv.children[0].style.fontSize = "50px";
-mainDiv.children[1].style.color = "white";
+
 
 var count = 0;
 var questions = [
@@ -32,7 +32,7 @@ var questions = [
           c: "parentheses",
           d: "square brackets"
       },
-      answer: "d"
+      answer: "c"
   },
   {
       question: "Arrays in JavaScript can be used to store ____.",
@@ -152,3 +152,8 @@ function nextQuestion(elem) {
       }, 1000);
 
     }
+
+    function startOver() {
+      location.reload();
+    }
+
