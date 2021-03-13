@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +8,49 @@
   <title>Code Quiz</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
   <div id="main">
-    <h1 style = "font-size: 65px;">Coding Quiz</h1>
-    
+    <h1 style="font-size: 65px;">Coding Quiz</h1>
+
   </div>
   <div id="articles">
     <article>
-      <div id = "startScreen" >
-      <h3 class="artTitle">You have 5 questions, 100 seconds on the clock, and a 10 second penalty for each wrong answer. </h3>
-      <button class = "button" onclick="startQuiz()">
-        GO!
-      </button></div>
-      <div id = "questions">
-        <h3 id = "question">
-    
-        </h3>
-        <button class = "button"  id = "a" onclick = "nextQuestion(this.id)"></button>
-        <button class = "button"  id = "b" onclick = "nextQuestion(this.id)"></button>
-        <button class = "button"  id = "c" onclick = "nextQuestion(this.id)"></button>
-        <button class = "button"  id = "d" onclick = "nextQuestion(this.id)"></button>
+      <div id="startScreen">
+        <h3 class="artTitle">You have 5 questions, 100 seconds on the clock, and a 10 second penalty for each wrong
+          answer. </h3>
+        <button class="button" onclick="startQuiz()">
+          GO!
+        </button>
       </div>
-      <div id= "submit" >
-        <h3 id = "score"> 
+      <div id="questions">
+        <h3 id="question">
+
+        </h3>
+        <button class="button" id="a" onclick="nextQuestion(this.id)"></button>
+        <button class="button" id="b" onclick="nextQuestion(this.id)"></button>
+        <button class="button" id="c" onclick="nextQuestion(this.id)"></button>
+        <button class="button" id="d" onclick="nextQuestion(this.id)"></button>
+      </div>
+      <div id="submit">
+        <h3 id="score">
         </h3>
         <input type="text" id="initial">
-        <button class = "button" onclick = "submitScore()">
+        <button class="button" onclick="submitScore()">
           submit score
         </button>
-        <button class = "button" onclick = "startOver()">
+        <button class="button" onclick="startOver()">
           start over
         </button>
       </div>
-      <div id = "highScore" align = "center"></div>
+      <div id="highScore" align="center"></div>
     </article>
-    <div id = "timer" align = "center" style = "font-size: 100px;">100</div>
-    
+    <div id="timer" align="center" style="font-size: 100px;">100</div>
+
   </div>
-  
+
 
   <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
