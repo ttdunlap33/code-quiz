@@ -14,20 +14,31 @@
   </div>
   <div id="articles">
     <article>
+      <div id = "startScreen" >
       <h3 class="artTitle">POPULATE QUIZ QUESTIONS HERE</h3>
       <button onclick="startQuiz()">
         push the button
-      </button>
-      <div class = "questions">
+      </button></div>
+      <div id = "questions">
         <h3 id = "question">
     
         </h3>
-        <button id = "a"></button>
-        <button id = "b"></button>
-        <button id = "c"></button>
-        <button id = "d"></button>
+        <button id = "a" onclick = "nextQuestion(this.id)"></button>
+        <button id = "b" onclick = "nextQuestion(this.id)"></button>
+        <button id = "c" onclick = "nextQuestion(this.id)"></button>
+        <button id = "d" onclick = "nextQuestion(this.id)"></button>
       </div>
+      <div id= "submit" >
+        <h3 id = "score"> 
+        </h3>
+        <input type="text" id="initial">
+        <button onclick = "submitScore()">
+          submit score
+        </button>
+      </div>
+      <div id = "highScore" align = "center"></div>
     </article>
+    <div id = "timer" align = "center" style = "font-size: 100px;">100</div>
     
   </div>
   
