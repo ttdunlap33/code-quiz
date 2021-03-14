@@ -37,9 +37,8 @@ article {
   margin: 0 auto;
 }
 
-.artTitle {
-  text-decoration: underline #003459;
-  margin-bottom: 15px;
+.intro {
+ margin-bottom: 15px;
 }
 
 .image {
