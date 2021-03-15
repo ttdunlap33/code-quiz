@@ -12,9 +12,9 @@
     * Score is saved at the end        
 
  ### Technologies Used
-    HTML5
-    CSS
-    JavaScript
+    * HTML5
+    * CSS
+    * JavaScript
 
 ### Score
     * User will input their name or initials for their final score
