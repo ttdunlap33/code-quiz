@@ -6,7 +6,7 @@
 
 
 ### Parameters
-    * 100 second timer will start upon beginning of 5 question quiz
+    * 100 second timer will start upon beginning the 5 question quiz
     * Time is deducted upon each incorrect answer
     * Once a question is answered, the next will appear 
     * Score is saved at the end        
