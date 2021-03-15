@@ -9,7 +9,7 @@
     * 100 second timer will start upon beginning the 5 question quiz
     * Time is deducted upon each incorrect answer
     * Once a question is answered, the next will appear 
-    * Score is saved at the end        
+    * Score is saved at the end of quiz 
 
  ### Technologies Used
     * HTML5
